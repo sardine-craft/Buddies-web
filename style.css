@@ -1,0 +1,220 @@
+body {
+background-color: mediumseagreen;
+}
+
+h1 {
+font-size: 100px;
+font-family: sans-serif;
+color: black;
+text-align: center;
+border-style: solid;
+border-bottom-color:powderblue;
+border-left-color: mediumseagreen;
+border-right-color: mediumseagreen;
+border-top-color: mediumseagreen;
+border-width: 5px;
+}
+
+h2 {
+font-family: sans-serif;
+color: black;
+font-size: 60px;
+}
+
+button {
+transition: 0.4s;
+border-style: solid;
+padding: 10px;
+background-color: black;
+font-size: 20px;
+font-family: sans-serif;
+color: grey;
+border-color: black;
+width: 100;
+height: 60px;
+visibility: visible;
+float: left;
+}
+
+button:hover {
+transition: 0.4s;
+border-style: solid;
+padding: 10px;
+background-color: powderblue;
+font-size: 20px;
+font-family: sans-serif;
+color: grey;
+border-color: powderblue;
+height: 60px;
+visibility: visible;
+float: left;
+}
+
+.inactive {
+transition: 0.4s;
+border-style: solid;
+padding: 10px;
+background-color: black;
+font-size: 20px;
+font-family: sans-serif;
+color: grey;
+border-color: red;
+height: 60px;
+}
+
+.inactive:hover {
+transition: 0.4s;
+border-style: solid;
+padding: 10px;
+background-color: red;
+font-size: 20px;
+font-family: sans-serif;
+color: black;
+border-color: red;
+height: 60px;
+}
+
+p {
+font-family: sans-serif;
+color: black;
+font-size:40px;
+}
+
+small {
+font-family: sans-serif;
+color: black;
+font-size:20px;
+}
+
+.box {
+transition: 0.4s;
+background-color: white;
+padding: 20px;
+border-style: solid;
+border-color: grey;
+text-align: center;
+width: 800px;
+margin: auto;
+color: grey;
+}
+
+.box:hover {
+transition: 1s;
+background-color: darkgrey;
+padding: 100px;
+border-style: solid;
+border-color: grey;
+text-align: center;
+width: 800px;
+margin: auto;
+color: grey;
+}
+
+.box:active {
+transition: 1s;
+background-color: powderblue;
+padding: 300px;
+border-style: solid;
+border-color: grey;
+text-align: center;
+width: 800px;
+margin: auto;
+color: grey;
+}
+
+.fail {
+font-family: sans-serif;
+color: red;
+font-size:40px;
+text-align: center;
+}
+
+.card {
+background-color: white;
+padding: 20px;
+border-style: solid;
+border-color: white;
+text-align: center;
+width: 800px;
+margin: auto;
+color: grey;
+}
+
+.group {
+background-color: black;
+position: fixed;
+top: 0px;
+left: 0px;
+width: 14000px;
+}
+
+a {
+visibility: hidden;
+}
+
+.a2 {
+visibility: visible;
+font-size: 40px;
+color: blue;
+}
+
+input {
+transition: 0.4s;
+font-family: sans-serif;
+background: none;
+border: none;
+color: powderblue;
+width: 100px;
+text-align: center;
+height: 50px;
+}
+
+input:hover {
+transition: 0.6s;
+font-family: sans-serif;
+background: none;
+border: none;
+color: powderblue;
+width: 600px;
+float: center;
+text-align: left;
+height: 50px;
+}
+
+#searchbutton {
+transition: 0.6s;
+border-style: solid;
+background-color: grey;
+font-size: 12px;
+font-family: sans-serif;
+color: darkgrey;
+border-color: grey;
+width: 50px;
+height: 50px;
+visibility: visible;
+border-radius: 10px;
+}
+
+#searchbutton:hover {
+transition: 0.4s;
+border-style: solid;
+background-color: powderblue;
+font-size: 12px;
+font-family: sans-serif;
+color: grey;
+border-color: powderblue;
+width: 50px;
+height: 50px;
+visibility: visible;
+border-radius: 10px;
+}
+
+form {
+background-color: #262626;
+border-style: solid;
+border-color: black;
+float: left;
+border-radius: 10px;
+height: 50px;
+}
+
