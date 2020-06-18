@@ -63,15 +63,8 @@ height: 60px;
 }
 
 .inactive:hover {
-transition: 0.4s;
-border-style: solid;
-padding: 10px;
 background-color: red;
-font-size: 20px;
-font-family: sans-serif;
 color: black;
-border-color: red;
-height: 60px;
 }
 
 p {
@@ -102,23 +95,13 @@ color: grey;
 transition: 1s;
 background-color: darkgrey;
 padding: 100px;
-border-style: solid;
-border-color: grey;
-text-align: center;
-width: 800px;
-margin: auto;
-color: grey;
 }
 
 .box:active {
 transition: 1s;
 background-color: powderblue;
 padding: 300px;
-border-style: solid;
 border-color: grey;
-text-align: center;
-width: 800px;
-margin: auto;
 color: grey;
 }
 
@@ -192,16 +175,9 @@ border-radius: 10px;
 
 #searchbutton:hover {
 transition: 0.4s;
-border-style: solid;
 background-color: powderblue;
-font-size: 12px;
-font-family: sans-serif;
 color: grey;
 border-color: powderblue;
-width: 50px;
-height: 50px;
-visibility: visible;
-border-radius: 10px;
 }
 
 form {
