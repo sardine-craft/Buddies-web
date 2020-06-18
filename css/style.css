@@ -37,17 +37,8 @@ float: left;
 }
 
 button:hover {
-transition: 0.4s;
-border-style: solid;
-padding: 10px;
 background-color: powderblue;
-font-size: 20px;
-font-family: sans-serif;
-color: grey;
 border-color: powderblue;
-height: 60px;
-visibility: visible;
-float: left;
 }
 
 .inactive {
