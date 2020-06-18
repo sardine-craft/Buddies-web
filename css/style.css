@@ -165,20 +165,15 @@ background: none;
 border: none;
 color: powderblue;
 width: 100px;
-text-align: center;
+text-align: left;
 height: 50px;
 }
 
 input:hover {
 transition: 0.6s;
-font-family: sans-serif;
-background: none;
-border: none;
-color: powderblue;
-width: 600px;
-float: center;
-text-align: left;
-height: 50px;
+width: 130px;
+padding-left: 10px;
+padding-right: 10px;
 }
 
 #searchbutton {
