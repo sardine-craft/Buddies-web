@@ -24,9 +24,9 @@ font-size: 60px;
 button {
 transition: 0.4s;
 border-style: solid;
-padding: 10px;
+padding: 4%;
 background-color: black;
-font-size: 20px;
+font-size: 2%;
 font-family: sans-serif;
 color: grey;
 border-color: black;
@@ -44,9 +44,9 @@ border-color: powderblue;
 .inactive {
 transition: 0.4s;
 border-style: solid;
-padding: 10px;
+padding: 4%;
 background-color: black;
-font-size: 20px;
+font-size: 2%;
 font-family: sans-serif;
 color: grey;
 border-color: red;
@@ -61,19 +61,19 @@ color: black;
 p {
 font-family: sans-serif;
 color: black;
-font-size:40px;
+font-size: 4%;
 }
 
 small {
 font-family: sans-serif;
 color: black;
-font-size:20px;
+font-size: 2%;
 }
 
 .box {
 transition: 0.4s;
 background-color: white;
-padding: 20px;
+padding: 2%;
 border-style: solid;
 border-color: grey;
 text-align: center;
@@ -85,13 +85,13 @@ color: grey;
 .box:hover {
 transition: 1s;
 background-color: darkgrey;
-padding: 100px;
+padding: 10%;
 }
 
 .box:active {
 transition: 1s;
 background-color: powderblue;
-padding: 300px;
+padding: 30%;
 border-color: grey;
 color: grey;
 }
@@ -99,13 +99,13 @@ color: grey;
 .fail {
 font-family: sans-serif;
 color: red;
-font-size:40px;
+font-size: 4%;
 text-align: center;
 }
 
 .card {
 background-color: white;
-padding: 20px;
+padding: 2%;
 border-style: solid;
 border-color: white;
 text-align: center;
@@ -117,8 +117,8 @@ color: grey;
 .group {
 background-color: black;
 position: fixed;
-top: 0px;
-left: 0px;
+top: 0;
+left: 0%;
 width: 100%;
 }
 
@@ -128,7 +128,7 @@ visibility: hidden;
 
 .a2 {
 visibility: visible;
-font-size: 40px;
+font-size: 4%;
 color: blue;
 }
 
