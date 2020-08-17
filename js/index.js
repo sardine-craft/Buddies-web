@@ -1,3 +1,0 @@
-function nope () {
-	alert("NOPE!")
-}

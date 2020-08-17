@@ -1,55 +1,33 @@
 <!DOCTYPE html>
-
 <html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <title>Buddies Web v1.1</title>
 
-<head>
-	<title>Buddies Official.com</title>
-	<link rel="stylesheet" href="css/style.css">
-	<link href='https://css.gg/search.css' rel='stylesheet'>
-</head>
+    </head>
+    <body>
+            <h1>Welcome<br> <small>To</small> <strong id="title">Buddies.</strong></h1>
 
-<body>
-	
-	
-	<div class="group">
-		<a href="index.html">
-		<button>Home</button>
-	</a>
-	
-	    <a href="about_us.html">
-	    <button>About us</button>
-	</a>
-	
-	    <a href="JoinBuddies.html">
-	    <button>Join Buddies</button>
-    </a>
-	
-	
-	    <a href="occasionalherald.html">
-	    <button>Catch up on the <em>Occasional Herald</em></button>
-	</a>
-	
-	<button class="inactive" onclick="nope()">Purchase Merch...<strong>Currently unnavailable!</strong></button>
-	
-	    <a href="index2.html">
-		<button>Da <strong>RULES</strong></button>
-	</a>
-	
-	<form method="GET" action="Buddies-web">
-	<input type="text" name="q" placeholder="   Search">
-	<button type="submit" id="searchbutton"><i class="gg-search"></i></button>
-	</form>
-	
-	</div>
-	
-	
-	<h1>Buddies Official Website</h1>
+        
+        
+        <div class="group">
+            <a>
+                <button class="buttonbar" onclick="Home()">Home.</button>
+            </a>
+            <a>
+                <button class="buttonbar" onclick="rules()">The<br> Rules.</button>
+            </a>
+            <a>
+                <button class="buttonbar" onclick="member()">Become<br>a<br>Member.</button>
+            </a>
+        </div>
 
+        <script src="buddies.js"></script>
+    </body>
 
-	
-
-	
-	<script src="index.js"></script>
-</body>
+    <div class="comingsoon">
+        <h1>Coming Soon!</h1>
+        <h1 id="countdown"></h1>
+    </div>
 
 </html>
