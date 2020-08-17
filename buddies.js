@@ -61,4 +61,3 @@ function startup() {
 
 window.onload = startup();
 
-window.onload = alert("Hello mr.President!");
