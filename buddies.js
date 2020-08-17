@@ -53,7 +53,7 @@ function startup() {
     if (str.includes("home")) {
     alert("You have been granted acces, Ian.");
     document.getElementById("cs1").style.display = "none";
-    document.getElementById("countdown").style.visibility = "hidden";
+    document.getElementById("countdown").style.display = "none";
     }
 }
 
