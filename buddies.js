@@ -23,7 +23,7 @@ var x = setInterval(function() {
   // If the count down is finished, write some text
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("demo").innerHTML = "The team is going to release the web in just a moment...";
+    document.getElementById("countdown").innerHTML = "The team is going to release the web in just a moment...";
   }
 }, 1000);
 
@@ -46,15 +46,15 @@ function hide() {
     document.getElementByClassName("group").style.display = "none";
 }
 
-//window.onload = alert("The URL of this page is: " + window.location.href);
 
 function startup() {
     var str = window.location.href;
     alert("The URL of this page is: " + str);
-    //if (str.includes("home")) {
-    //alert("You have been granted acces, Ian.");
+    if (str.includes("home")) {
+    alert("You have been granted acces, Ian.");
+    document.getElementById("cs1").style.display = "none";
     document.getElementById("countdown").style.visibility = "hidden";
-    //}
+    }
 }
 
 window.onload = startup();
