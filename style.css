@@ -60,12 +60,7 @@ p {}
     transition: 0.2s;
 }
 
-.buttonbar:active:after {
-    border-left-color: white;
-    transition: 0.8s;
-}
-
-.comingsoon {
+#comingsoon {
     position: fixed;
     top: 0%;
     left: 0%;
@@ -74,4 +69,8 @@ p {}
     text-align: center;
     justify-content: center;
     background-color: black;
+}
+
+a {
+    text-decoration: none;
 }
