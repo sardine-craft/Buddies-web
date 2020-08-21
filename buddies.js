@@ -24,8 +24,6 @@ var x = setInterval(function() {
   if (distance < 0) {
     clearInterval(x);
     document.getElementById("countdown").innerHTML = "Releasing...";
-    document.getElementById("cs1").style.display = "none";
-    document.getElementById("countdown").style.display = "none";
   }
 }, 1000);
 
