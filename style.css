@@ -60,7 +60,7 @@ p {}
     transition: 0.2s;
 }
 
-#comingsoon {
+.comingsoon {
     position: fixed;
     top: 0%;
     left: 0%;

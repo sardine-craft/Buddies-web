@@ -55,9 +55,6 @@ function startup() {
     document.getElementById("cs1").style.display = "none";
     document.getElementById("countdown").style.display = "none";
 
-    } else {
-        document.getElementById("cs1").style.diplay = "block";
-        document.getElementById("countdown").style.display = "block";
     }
 }
 
