@@ -11,7 +11,10 @@ h1 {
     text-shadow: 0px 0px 50px #0fbfbf;
 }
 
-p {}
+p {
+    color: #0fbfbf;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 #floatright {
     float: right;
