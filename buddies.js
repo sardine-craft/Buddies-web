@@ -60,5 +60,9 @@ function startup() {
     }  
 }
 
+function fool() {
+    alert("Bro, come on. Where did you think that would take you?");
+}
+
 window.onload = startup();
 
