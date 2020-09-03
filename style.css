@@ -98,5 +98,5 @@ a:active {
 .blackbox {
     border-radius: 10px;
     background-color: black;
-    border: solid none none none;
+    border-color: #0fbfbf black black black;
 }
