@@ -20,7 +20,7 @@ function hide() {
 }
 
 function start() {
-    document.getElementById("start").style.visibility = "none";
+    document.getElementById("start").style.visibility = "hidden";
 }
 
 window.onload = start();
