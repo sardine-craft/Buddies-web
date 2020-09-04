@@ -19,5 +19,9 @@ function hide() {
     document.getElementByClassName("group").style.display = "none";
 }
 
+function start() {
+    document.getElementById("start").style.visibility = "none";
+}
 
+window.onload = start();
 
