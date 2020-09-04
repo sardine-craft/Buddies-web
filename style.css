@@ -95,7 +95,7 @@ a:active {
     height: 100%;
     position: fixed;
     background-color: black;
-    visibility: visible;
+    opacity: 0%;
     transition: 0.6s;
 }
 
