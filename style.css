@@ -1,4 +1,15 @@
+html {
+    scroll-behavior: smooth;
+}
+
+@keyframes focusBody {
+    0% {filter: blur(1rem);}
+    100% {filter: blur(0);}
+}
+
+
 body {
+    filter: none;
     background-color: white;
     color: var(--orange);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -8,6 +19,8 @@ body {
     perspective-origin: center;
     perspective: 350px;
     transform-style: preserve-3d;
+    animation-name: focusBody;
+    animation-duration: 1s;
 }
 
 body::-webkit-scrollbar {
@@ -34,6 +47,11 @@ button:hover {
 
 button:focus {
     background-color: var(--cyan);
+}
+
+a {
+    text-decoration: none;
+    color: var(--darkorange);
 }
 
 #slidey-thing {
