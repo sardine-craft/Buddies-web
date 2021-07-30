@@ -7,38 +7,59 @@ html {
     100% {filter: blur(0);}
 }
 
+iframe {
+    border: none;
+    width: 100%;
+    height: 400px;
+}
+
 
 body {
+    box-sizing: border-box;
     filter: none;
-    background-color: white;
     color: var(--orange);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
     margin: 0 auto;
     margin-top: 2em;
-    perspective-origin: center;
+    perspective-origin: top;
     perspective: 350px;
     transform-style: preserve-3d;
     animation-name: focusBody;
     animation-duration: 1s;
+    overflow-x: hidden;
 }
 
-body::-webkit-scrollbar {
+body::-webkit-scrollbar-track {
+    background-color: transparent;
+    width: 15px;
+}
+
+#gradientTransition {
+    background-image: linear-gradient(transparent, white);
+    width: 100%;
+    height: 40px;
+    display: block;
+}
+
+#whitepage {
     background-color: white;
-}
-
-body::-webkit-scrollbar-thumb {
-    background-color: var(--orange);
+    width: 100%;
+    height: 100%;
+    padding-top: 40px;
+    padding-bottom: 80px;
+    display: block;
 }
 
 
 button {
+    margin: 2px;
     border: none;
     border-radius: 3px;
     background-color: var(--orange);
     outline: none;
     color: white;
-    font-size: 1.6em;
+    font-size: 5vmin;
 }
 
 button:hover {
@@ -54,19 +75,19 @@ a {
     color: var(--darkorange);
 }
 
+p {
+    font-size: 20px;
+}
+
 #slidey-thing {
-    overflow-x: scroll;
-    overflow-y: hidden;
-    white-space: nowrap;
+    overflow-x: visible;
     display: inline-block;
     width: 100%;
     height: 4em;
 }
 
 #buttonbar {
-    overflow-x: scroll;
-    overflow-y: hidden;
-    white-space: nowrap;
+    overflow-x: visible;
     display: inline-block;
     width: 80%;
     height: 2em;
@@ -79,20 +100,18 @@ a {
 
 .large-tall {
     font-size: 8vmax;
-    transform: scaleY(2);
     text-transform: uppercase;
 }
 
 .small-wide {
     font-size: 5vmax;
     font-weight: lighter;
-    transform: scaleX(1.6);
     text-transform: uppercase;
-    letter-spacing: 0.05em;
+    letter-spacing: 0.4em;
 }
 
 #title {
-    margin: 3em auto;
+    margin: 2em auto;
     width: 50vmax;
     height: 40vmin;
     transition: 0.4s;
@@ -100,11 +119,37 @@ a {
 }
 
 #titletop {
-    transform: rotateX(20deg);
+
 }
 
 #titlebottom {
-    transform: rotateX(-30deg);
+
+}
+
+@keyframes border-stretch {
+
+    80% {
+        border-radius: 10%;
+    }
+
+    85% {
+        border-radius: 40% 50% 30% 20%;
+    }
+
+    100% {
+        border-radius: 70% 40% 70% 40%;
+    }
+}
+
+.splotch {
+    border-radius: 10%;
+    background-color: var(--darkorange);
+    color: white;
+    display: inline-block;
+    padding: 30px;
+    animation-name: border-stretch;
+    animation-duration: 2s; 
+    animation-fill-mode: forwards;
 }
 
 :root {

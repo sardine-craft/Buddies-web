@@ -1,37 +1,51 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Buddies</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <div id="title">
-            <div id="titletop">
-                <h1 class="large-tall">BUDDIES</h1>
-            </div>
-            <div id="titlebottom">
-                <h2 class="small-wide">Website</h2>
-            </div>
-        </div>
 
-        <div id="slidey-thing">
-            <div id="buttonbar">
-                <a id="top"></a>
-                <button>Home</button>
-                <button>Help</button>
-                <button>Laws</button>
-                <button>Questions</button>
-                <button>About</button>
-                <button>Profile</button>
-                <button>Become a member</button>
-                <a id="bottom"></a>
-            </div>
-            <div id="arrows">
-                <a class="leftarrow" href="#top">&#9664;</a>
-                <a class="rightarrow" href="#bottom">&#9658;</a>
-            </div>
+<head>
+    <title>Buddies</title>
+    <link rel="stylesheet" href="body.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="title">
+        <div id="titletop">
+            <h1 class="large-tall">BUDDIES</h1>
+        </div>
+        <div id="titlebottom">
+            <h2 class="small-wide">Website</h2>
+        </div>
     </div>
 
-    <script src="buddies.js"></script>
-    </body>
+    <div id="gradientTransition"></div>
+    <div id="whitepage">
+
+            <div id="slidey-thing">
+                <div id="buttonbar">
+                    <div id="top"></div>
+                    <button>Home</button>
+                    <button>Help</button>
+                    <button>RuleBook</button>
+                    <button>Questions</button>
+                    <button>About</button>
+                    <button>Profile</button>
+                    <button>Become a member</button>
+                    <div id="bottom"></div>
+                </div>
+            </div>
+
+            <h1>-</h1>
+
+            <iframe id="displayPageContent" src="Home.html"></iframe>
+
+            <small>Photo by <a
+                    href="https://unsplash.com/@nikolayv?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Nikolay
+                    Vorobyev</a> on <a
+                    href="https://unsplash.com/s/photos/cityscape?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></small>
+
+    </div>
+
+    <script src="Helper.js"></script>
+</body>
+
 </html>
